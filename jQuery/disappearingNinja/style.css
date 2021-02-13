@@ -1,0 +1,13 @@
+img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+button {
+    display: block;
+    background-color: green;
+    width: 100px;
+    height: auto;
+    color: white;
+}

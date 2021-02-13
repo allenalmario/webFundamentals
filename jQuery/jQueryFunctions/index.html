@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                // this is where we'll write jQuery code
+
+                $("#change-red").click(function(){
+                    $("#to-change-red").addClass("red-text");
+                });
+
+                $("#to-toggle").hide();
+
+                $("#slideToggle").click(function(){
+                    $("#to-toggle").slideToggle("slow");
+                });
+
+                $("#add-paragraph").click(function(){
+                    $("#to-add-to").append("<p>Added Paragraph!</p>")
+                });
+
+                $("#hidden-message").hide();
+
+                $("#showMessage").click(function(){
+                    $("#hidden-message").show("slow");
+                });
+            })
+        </script>
+        <link rel="stylesheet" href="style.css">
+    </header>
+    <body>
+        <h1>AddClass</h1>
+        <button id="change-red">AddClass</button>
+        <p id="to-change-red">Click the button to add class 'red' to this paragraph</p>
+        <h1>Slidetoggle</h1>
+        <button id="slideToggle">Slidetoggle</button>
+        <p>Click the button to slidetoggle a hidden image</p>
+        <img id="to-toggle" src="drakeApproves.jpeg" width=400px height: auto>
+        <h1>Append</h1>
+        <button id="add-paragraph">Append</button>
+        <p id="to-add-to">Click the button to append a new paragraph!</p>
+        <h1>Show the hidden message</h1>
+        <button id="showMessage">Show message</button>
+        <p id="hidden-message">This is a hidden message, forbidden from being seen from those who have not pressed the "Show message" button.</p>
+    </body>
+</html>
