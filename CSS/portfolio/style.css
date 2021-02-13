@@ -1,0 +1,123 @@
+* {
+    /* outline: 5px dotted red; */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container {
+    width: 970px;
+    min-height: auto;
+    margin: 0px auto;
+    /* outline: 5px dotted red; */
+    background-image: linear-gradient(to left, #dfd2de, #6f5964);
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.bio {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+    .bio img {
+        width: 420px;
+        height: auto;
+        border: 5px solid silver;
+        margin-right: 10px;
+        /* margin: 17px 17px 0px 17px; */
+    }
+    .bio .text {
+        width: 460px;
+        height: auto;
+        background-color: #e8dfe8;
+        /* display: inline-block; */
+        /* vertical-align: top; */
+        /* margin: 17px; */
+    }
+        .bio .text h2 {
+            background-image: linear-gradient(#a9a9ae, #8b8996, #a9a9ae);
+            color: white;
+            height: 30px;
+            padding: 10px;
+            font-style: arial;
+            /* padding: 10px; */
+        }
+        .bio .text p {
+            /* background-color: #e8dfe8; */
+            background-image: linear-gradient(to left, #dfd2de, white);
+            height: 66px;
+            padding: 10px;
+            /* padding: 6px; */
+        }
+.work {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+    .work .project {
+        /* display: inline-block; */
+        width: 280px;
+        background-image: linear-gradient(to left, #dfd2de, white);
+        height: 650px;
+        /* margin: 17px; */
+    }
+    .work .project h2 {
+        background-image: linear-gradient(#a9a9ae, #8b8996, #a9a9ae);
+        padding: 10px;
+        color: white;
+
+    }
+    .work .project img {
+        width: 280px;
+        height: auto;
+    }
+    .work p{
+        min-height: 200px;
+        padding: 10px;
+    }
+    .work .project ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+    .work .project ul li img {
+        width: 40px;
+        height: auto;
+        padding: 8px;
+    }
+    .work .project button {
+        background-color: green;
+        border-radius: 7px;
+        color: white;
+        padding: 6px;
+        margin-bottom: 10px;
+    }
+    
+
+.footer {
+    background-color:  rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+.footer ul li img {
+    width: 15px;
+    height: auto;
+    margin-left: 3px;
+    margin-right: 3px;
+}
