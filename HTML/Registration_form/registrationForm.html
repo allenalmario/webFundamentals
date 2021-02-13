@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta name="Description" content="Fill out a Registration Form.">
+    </head>
+    <body>
+        <h1>My Registration Form</h1>
+        <form>
+            <label for="first_name">First Name: </label>
+            <input type="text" id="first_name" name="first_name">
+            <br/>
+            <label for="last_name">Last Name: </label>
+            <input type="text" id="last_name" name="last_name">
+            <br/>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <br/>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password">
+            <br/>
+            <label for="pw_confirm">Password Confirm: </label>
+            <input type="password" id="pw_confirm" name="pw_confirm">
+            <br/>
+            <label for="birthday">Birthday </label>
+            <input type="date" id="birthday" name="birthday">
+            <br/>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="prefer">Prefer not to answer</label>
+            <input type="radio" id="prefer" name="gender" value="prefer">
+            <br/>
+            <p>A short description about yourself:</p>
+            <textarea name="description"></textarea>
+            <br/>
+            <p>Favorite Programming Language: </p>
+            <select name="fav_language">
+                <option value="js">JavaScript</option>
+                <option value="p">Python</option>
+                <option value="ja">Java</option>
+                <option value="c">C#</option>
+            </select>
+            <br/>
+            <br/>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
